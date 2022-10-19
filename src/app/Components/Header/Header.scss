@@ -1,0 +1,82 @@
+.header-container {
+    font-family: helvetica, arial, sans-serif;
+    position: relative;
+    .MuiTypography-root{
+        font-family: Georgia, serif;
+    }
+    
+    .sticky-thc {
+        position: sticky;
+        top: 0;
+        box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+        padding: 10px 20px;
+        transition: box-shadow 250ms;
+        background: white;
+        z-index: 1000;
+        .header-third-col{
+            align-items: center;
+            justify-content: flex-end;
+            .login-button{
+                cursor: pointer;
+            }
+        }
+        .MuiBox-root{
+            padding-right: 10px;
+        }
+        .media{
+            cursor: pointer;
+        }
+    }
+}
+.login-dialog{
+    .MuiPaper-root{
+        padding: 2rem;
+    }
+    #login-title{
+        text-align: center;
+        font-family: cursive;
+        color: darkslategray;
+    }
+    #login-body{
+        padding-bottom: 1.5rem;
+        text-transform: capitalize;
+        font-family: emoji;
+    }
+    .otp-number-enter{
+        width: 100%;
+        border-radius: 10px;
+        font-family: emoji;
+        padding: 0.5rem;
+    }
+    .error-message{
+        font-size: 11px;
+        color: red;
+        padding-top: 0.5rem;
+    }
+    label{
+        text-transform: capitalize;
+        font-family: emoji;
+        color: green;
+        font-size: 1.1rem;
+        svg{
+            height: 1.5rem;
+            width: 1.5rem;
+            border-radius: 25px;
+            margin-left: 2rem;
+            background: green;
+            color: white;
+        }
+    }
+    .otp-button-wrap{
+        justify-content: center;
+        display: flex;
+        padding-top: 1rem;
+        button{
+            width: 50%;
+            background: #FF3F61;
+            border-radius: 21px;
+            font-family: emoji;
+            color: white;
+        }
+    }
+}

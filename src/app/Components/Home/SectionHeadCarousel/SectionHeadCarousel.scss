@@ -1,0 +1,91 @@
+.head-carousel-wrapper{
+
+    .carousel-image{
+        width: 100%;
+        height: 505px;
+        object-fit: cover;
+    }
+    .carousel-item-1{
+        .carousel-caption{
+            top: 37px;
+            font-family: emoji;
+            right: 42%;
+            height: 57%;
+            background: cornsilk;
+            box-shadow: 30px 32px 16px 0 rgb(0 0 0 / 20%);
+            h3{
+                color: darkslategray;
+                font-family: emoji;
+                font-size: 2rem;
+                text-transform: capitalize;
+            }
+            p{
+                color: darkolivegreen;
+                font-size: 1.1rem;
+                text-transform: capitalize;
+            }
+            .shipping-wrap{
+                display: flex;
+                justify-content: center;
+                svg{
+                    margin-right: 1rem;
+                    color: darkolivegreen;
+                }
+            }
+            .offer{
+                padding-top: 1rem;
+                font-family: cursive;
+                font-size: 1.5rem;
+                font-weight: 600;
+                color: cadetblue;
+            }
+        }
+    }
+    .carousel-item-2{
+        .carousel-caption{
+            right: 9%;
+            left: 35%;
+            top: 30%;
+            h3{
+                font-family: cursive;
+                font-size: 4rem;
+            }
+            p{font-family: emoji;}
+            .shipping-wrap{
+                display: flex;
+                justify-content: center;
+                box-shadow: -3px 1px 68px 0 rgb(0 0 0 / 20%);
+                width: 70%;
+                margin: auto;
+                padding-top: 1rem;
+                svg{
+                    margin-right: 1rem;
+                    color: antiquewhite;
+                }
+                p{
+                    font-family: emoji;
+                    font-size: 1.2rem;
+                    color: antiquewhite;
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+    .carousel-item-3{
+        .carousel-caption{
+            bottom: 18%;
+            background: aliceblue;
+        }
+        h3{
+            color: black;
+            text-transform: capitalize;
+            font-family: fantasy;
+            font-size: 4rem;
+        }
+        p{
+            color: cadetblue;
+            text-transform: capitalize;
+            font-size: 0.8rem;
+        }
+    }
+}

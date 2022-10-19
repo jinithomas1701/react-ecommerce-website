@@ -1,0 +1,19 @@
+.each-deal-card{
+    max-width: 300px;
+    text-align: center;
+    display: block;
+    padding: 1rem;
+    background: aliceblue;
+    margin: 1rem;
+    .deal-image{
+        border-radius: 14px;
+        max-width: 230px;
+        object-fit: cover;
+    }
+    .brand-logo{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 5rem;
+    }
+}

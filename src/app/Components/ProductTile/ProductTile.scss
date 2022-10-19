@@ -1,0 +1,46 @@
+.each-product-container{
+    font-family: Georgia, serif;
+    margin: 0.5rem 0rem;
+    max-width: 11.5rem;
+    padding-bottom: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+    &:hover{
+        box-shadow: 0 5px 10px rgb(154 160 185 / 24%);
+    }
+    .product-image{
+        justify-content: center;
+        display: flex;
+        img{
+            object-fit: cover;
+        }
+    }
+    .product-content{
+        text-align: center;
+        .product-name{
+            font-weight: 600;
+            text-transform: capitalize;
+
+        }
+        .product-description{
+            font-size: 0.75rem;
+            text-transform: capitalize;
+            color: darkslategrey;
+        }
+        .product-price{
+            display: flex;
+            padding-top: 0.6rem;
+            justify-content: center;
+            .have-discount{
+                text-decoration: line-through;
+            }
+            .product-discount-price{
+                padding-left: 0.5rem;
+                color: darkcyan;
+            }
+        }
+        .price-cover{
+            display: flex;
+        }
+    }
+}
